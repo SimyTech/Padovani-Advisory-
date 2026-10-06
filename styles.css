@@ -272,3 +272,10 @@ button, input, textarea { font: inherit; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
 }
+
+.obs-feature{background:#e9dfe5}
+.obs-feature>a{display:block;overflow:hidden}
+.obs-feature img{transition:transform .55s ease}
+.obs-feature:hover img{transform:scale(1.035)}
+.obs-feature figcaption{background:#f4edf0}
+.obs-feature figcaption i{font-style:normal}

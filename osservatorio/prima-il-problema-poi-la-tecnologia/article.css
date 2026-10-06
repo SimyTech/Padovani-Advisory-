@@ -72,3 +72,25 @@
  .method-flow span{font-size:11px}
  .method-flow i{font-size:11px}
 }
+
+/* Layout a colonna nei quesiti per evitare che domanda e risposta sembrino parole unite */
+.article-steps li{
+ display:flex;
+ flex-wrap:wrap;
+ align-items:flex-start;
+ column-gap:10px;
+ row-gap:7px;
+}
+.article-steps li::before{flex:0 0 30px;grid-row:auto}
+.article-steps li b{flex:1 1 calc(100% - 45px);display:block}
+.article-steps li span{flex:1 1 100%;display:block;margin-left:40px}
+.method-flow{display:flex;align-items:center;justify-content:flex-start;gap:12px 14px}
+.method-flow span{display:inline-block}
+.method-flow i{display:inline-block;padding:0 2px}
+@media(max-width:480px){
+ .article-steps li{display:grid;grid-template-columns:30px minmax(0,1fr);column-gap:10px;row-gap:7px}
+ .article-steps li::before{grid-column:1;grid-row:1}
+ .article-steps li b{grid-column:2;display:block}
+ .article-steps li span{grid-column:2;margin-left:0}
+ .method-flow{gap:12px 10px}
+}

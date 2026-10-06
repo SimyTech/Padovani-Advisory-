@@ -1,0 +1,43 @@
+.article-page{background:var(--paper)}
+.article-hero{max-width:1050px;margin:auto;padding:78px 28px 56px}
+.article-back{display:inline-flex;margin-bottom:38px;color:#80677e;font-size:12px;font-weight:700}
+.article-kicker{margin:0 0 18px;color:#91788d;font-size:10px;font-weight:700;letter-spacing:.21em}
+.article-hero h1{margin:0;color:#25233a;font:400 clamp(48px,7vw,88px)/1.04 var(--display);letter-spacing:-.06em}
+.article-hero h1 em{color:#a57999;font-style:normal}
+.article-subtitle{margin:18px 0 20px;color:#574d5e;font:500 clamp(18px,2.4vw,25px)/1.4 var(--display)}
+.article-deck{max-width:760px;margin:0;color:#6c6570;font-size:17px;line-height:1.8}
+.article-meta{display:flex;gap:28px;margin-top:29px;color:#918391;font-size:9px;font-weight:700;letter-spacing:.17em}
+.article-cover{max-width:1190px;margin:0 auto 70px;padding:0 25px}
+.article-cover img{width:100%;border-radius:2px;box-shadow:0 20px 60px #31243b17}
+.article-cover figcaption{margin-top:12px;color:#8b808a;font-size:11px}
+.article-layout{max-width:1190px;margin:0 auto;padding:0 25px 100px;display:grid;grid-template-columns:210px minmax(0,760px);gap:80px;justify-content:center}
+.article-aside{align-self:start;position:sticky;top:125px;display:flex;flex-direction:column;gap:13px;padding-top:8px}
+.article-aside span{margin-bottom:7px;color:#988b96;font-size:9px;font-weight:700;letter-spacing:.17em}
+.article-aside a{color:#625968;font-size:11px;line-height:1.5}
+.article-aside a:hover{color:#a57999}
+.article-body{color:#514c57;font-size:16px;line-height:1.9}
+.article-body section{margin:0 0 44px;scroll-margin-top:120px}
+.article-body h2{margin:0 0 17px;color:#27243a;font:500 30px/1.25 var(--display);letter-spacing:-.035em}
+.article-body p{margin:0 0 17px}
+.article-body .article-lead{color:#383346;font-size:19px;line-height:1.8}
+.article-body sup a{padding:0 2px;color:#986d8d;font-weight:700}
+.method-flow{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:25px 0;padding:20px;background:#f1e9ec;color:#514354;font-size:12px;font-weight:700}
+.method-flow i{color:#b48ba2;font-style:normal}
+.article-steps{counter-reset:item;list-style:none;padding:0;margin:25px 0}
+.article-steps li{counter-increment:item;display:grid;grid-template-columns:35px 1fr;column-gap:12px;padding:15px 0;border-bottom:1px solid #e8dfe2}
+.article-steps li::before{content:"0" counter(item);grid-row:span 2;color:#a57999;font-size:10px;font-weight:700;letter-spacing:.1em}
+.article-steps b{color:#312c3f;font-size:14px}
+.article-steps span{font-size:13px;line-height:1.65}
+.article-conclusion{padding:34px 36px;background:#f1e9ec}
+.article-conclusion h2{font-size:37px}
+.article-conclusion h2 em{color:#a57999;font-style:normal}
+.article-signoff{margin-top:25px;color:#332d40;font:600 18px var(--display)}
+.article-signoff span{display:block;margin-top:4px;color:#8a7486;font:500 10px var(--body);letter-spacing:.16em}
+.article-sources{padding-top:26px;border-top:1px solid #ddd1d8}
+.article-sources h2{font-size:21px}
+.article-sources p,.article-sources li{font-size:12px;line-height:1.7}
+.article-sources ol{padding-left:20px}
+.article-sources a{color:#8b6281;text-decoration:underline;text-underline-offset:3px}
+.article-disclaimer{padding:18px 0;border-top:1px solid #e4d9dc;color:#887d87;font-size:11px!important}
+@media(max-width:800px){.article-hero{padding:52px 22px 40px}.article-back{margin-bottom:27px}.article-deck{font-size:15px}.article-cover{margin-bottom:46px;padding:0 15px}.article-layout{grid-template-columns:1fr;gap:25px;padding:0 22px 70px}.article-aside{position:static;display:grid;grid-template-columns:1fr 1fr;gap:8px 14px;padding:17px;background:#f1e9ec}.article-aside span{grid-column:1/-1}.article-body{font-size:15px}.article-body h2{font-size:26px}.article-body .article-lead{font-size:17px}.method-flow{gap:8px;padding:15px}.method-flow span{font-size:10px}.article-conclusion{padding:26px 22px}}
+@media(max-width:480px){.article-hero h1{font-size:45px}.article-meta{gap:17px;font-size:8px}.article-aside{grid-template-columns:1fr}.article-aside span{grid-column:auto}.method-flow{gap:7px}.method-flow i{font-size:10px}.article-steps li{grid-template-columns:28px 1fr}.article-conclusion h2{font-size:32px}}

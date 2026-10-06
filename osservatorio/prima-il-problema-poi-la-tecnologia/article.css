@@ -41,3 +41,34 @@
 .article-disclaimer{padding:18px 0;border-top:1px solid #e4d9dc;color:#887d87;font-size:11px!important}
 @media(max-width:800px){.article-hero{padding:52px 22px 40px}.article-back{margin-bottom:27px}.article-deck{font-size:15px}.article-cover{margin-bottom:46px;padding:0 15px}.article-layout{grid-template-columns:1fr;gap:25px;padding:0 22px 70px}.article-aside{position:static;display:grid;grid-template-columns:1fr 1fr;gap:8px 14px;padding:17px;background:#f1e9ec}.article-aside span{grid-column:1/-1}.article-body{font-size:15px}.article-body h2{font-size:26px}.article-body .article-lead{font-size:17px}.method-flow{gap:8px;padding:15px}.method-flow span{font-size:10px}.article-conclusion{padding:26px 22px}}
 @media(max-width:480px){.article-hero h1{font-size:45px}.article-meta{gap:17px;font-size:8px}.article-aside{grid-template-columns:1fr}.article-aside span{grid-column:auto}.method-flow{gap:7px}.method-flow i{font-size:10px}.article-steps li{grid-template-columns:28px 1fr}.article-conclusion h2{font-size:32px}}
+
+/* Maggiore respiro per rendere la lettura più chiara, soprattutto su smartphone */
+.article-body{word-spacing:.025em;line-height:2}
+.article-body p{margin-bottom:22px}
+.article-body section{margin-bottom:54px}
+.article-body h2{margin-bottom:21px}
+.article-steps{margin:30px 0}
+.article-steps li{padding:19px 0;row-gap:5px}
+.article-steps b{line-height:1.55}
+.article-steps span{line-height:1.8}
+.method-flow{column-gap:15px;row-gap:13px;line-height:1.6}
+.method-flow span{padding:2px 0;white-space:nowrap}
+.article-sources li{margin-bottom:8px}
+@media(max-width:800px){
+ .article-body{line-height:2.05}
+ .article-body p{margin-bottom:21px}
+ .article-body section{margin-bottom:46px}
+ .article-steps li{padding:17px 0;column-gap:10px;row-gap:5px}
+ .method-flow{column-gap:12px;row-gap:12px}
+}
+@media(max-width:480px){
+ .article-body{font-size:16px;line-height:2.05;word-spacing:.04em}
+ .article-body .article-lead{font-size:17px;line-height:1.95}
+ .article-body p{margin-bottom:23px}
+ .article-steps li{grid-template-columns:30px 1fr;padding:18px 0}
+ .article-steps b{font-size:14px}
+ .article-steps span{font-size:14px;line-height:1.8}
+ .method-flow{gap:9px 11px;padding:17px}
+ .method-flow span{font-size:11px}
+ .method-flow i{font-size:11px}
+}

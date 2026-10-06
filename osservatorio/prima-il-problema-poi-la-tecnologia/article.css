@@ -94,3 +94,21 @@
  .article-steps li span{grid-column:2;margin-left:0}
  .method-flow{gap:12px 10px}
 }
+
+/* Domanda in grassetto e risposta su una riga separata */
+.article-steps li{
+ display:grid;
+ grid-template-columns:30px minmax(0,1fr);
+ grid-template-rows:auto auto;
+ column-gap:12px;
+ row-gap:8px;
+ align-items:start;
+}
+.article-steps li::before{grid-column:1;grid-row:1 / span 2}
+.article-steps li b{grid-column:2;grid-row:1;display:block;margin:0 0 2px}
+.article-steps li span{grid-column:2;grid-row:2;display:block;margin:0}
+@media(max-width:480px){
+ .article-steps li{grid-template-columns:26px minmax(0,1fr);column-gap:10px;row-gap:9px;padding:19px 0}
+ .article-steps li b{font-size:15px;line-height:1.55}
+ .article-steps li span{font-size:14px;line-height:1.85}
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Prima il problema, poi la tecnologia</title><desc id="desc">Illustrazione editoriale astratta in toni avorio e malva: una sequenza di passaggi da un problema a una soluzione.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8f3ef"/><stop offset="1" stop-color="#e8dce3"/></linearGradient><linearGradient id="orb" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#584365"/><stop offset=".56" stop-color="#bb8da9"/><stop offset="1" stop-color="#f1c5b5"/></linearGradient><filter id="blur"><feGaussianBlur stdDeviation="48"/></filter></defs>
+<rect width="1600" height="900" fill="url(#bg)"/><circle cx="1260" cy="140" r="170" fill="#d5b7c6" opacity=".46" filter="url(#blur)"/><circle cx="270" cy="780" r="190" fill="#edc6b9" opacity=".38" filter="url(#blur)"/>
+<path d="M950 0h650v900h-420c-60-190-45-315 50-438 110-142 7-281-280-462Z" fill="#22243c"/>
+<path d="M1024 0h576v900h-360c-36-140-4-276 95-401 110-139 31-302-311-499Z" fill="url(#orb)" opacity=".92"/>
+<g fill="none" stroke="#fff8f4" stroke-opacity=".56" stroke-width="2"><path d="M1010 650c120-100 240-100 360 0s240 100 360 0"/><path d="M1010 692c120-100 240-100 360 0s240 100 360 0"/><path d="M1010 734c120-100 240-100 360 0s240 100 360 0"/><path d="M1010 776c120-100 240-100 360 0s240 100 360 0"/></g>
+<text x="110" y="155" fill="#8d7086" font-family="Arial,sans-serif" font-size="22" letter-spacing="8">OSSERVATORIO · PADOVANI ADVISORY</text>
+<text x="105" y="375" fill="#202139" font-family="Georgia,serif" font-size="83">Prima il problema,</text><text x="105" y="474" fill="#715477" font-family="Georgia,serif" font-size="83" font-style="italic">poi la tecnologia.</text>
+<text x="110" y="558" fill="#5e5968" font-family="Arial,sans-serif" font-size="27" letter-spacing="1">COME SCEGLIERE SOLUZIONI DIGITALI CON CRITERIO</text>
+<g transform="translate(115 680)"><rect width="630" height="2" fill="#b497aa"/><circle cx="8" cy="1" r="7" fill="#584365"/><circle cx="208" cy="1" r="7" fill="#8f7193"/><circle cx="418" cy="1" r="7" fill="#bd91a7"/><circle cx="620" cy="1" r="7" fill="#d5a99e"/><g fill="#554b5b" font-family="Arial,sans-serif" font-size="16" letter-spacing="2"><text y="39">PROBLEMA</text><text x="192" y="39">CAUSA</text><text x="398" y="39">SCELTA</text><text x="565" y="39">RISULTATO</text></g></g>
+</svg>
